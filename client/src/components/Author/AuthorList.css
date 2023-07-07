@@ -1,0 +1,60 @@
+/* AuthorList.css */
+
+.author-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.author-card {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  /* Ajustar el ancho a 300px */
+  height: 300px;
+  /* Establecer el alto en 250px */
+  margin-right: 10px;
+  overflow: hidden;
+  /* Recortar el contenido que se desborde */
+}
+
+.author-card .edit-button {
+  float: right;
+}
+
+.author-card img {
+  width: 200px;
+  /* Establecer el ancho en 200px */
+  height: 220px;
+  /* Establecer el alto en 220px */
+  object-fit: cover;
+  /* Asegurar que la imagen llene el contenedor */
+}
+
+/* Rest of the CSS code remains the same */
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.author-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.delete-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
